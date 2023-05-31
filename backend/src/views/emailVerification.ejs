@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<title>LeBikeShare</title>
+
+		<style></style>
+	</head>
+	<body style="margin: 0; /* background-color: green */">
+		<div
+			style="
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				/* background-color: aqua; */
+				height: 100vh;
+				flex-direction: column;
+			"
+		>
+			<!-- <div
+				style="
+					height: 15rem;
+					width: 15rem;
+					/* background-color: coral; */
+					padding: 1.5rem;
+				"
+			> -->
+			<lottie-player
+				src="<%- url %>"
+				background="transparent"
+				speed="1"
+				style="height: 15rem; width: 15rem"
+				loop
+				autoplay
+			></lottie-player>
+			<!-- </div> -->
+			<div
+				style="/* background-color: pink; */ text-align: center; margin: 1rem"
+			>
+				<%- message %>
+			</div>
+		</div>
+	</body>
+</html>

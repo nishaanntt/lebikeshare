@@ -1,0 +1,16 @@
+export { default as Login } from './login';
+export { default as Register } from './register';
+export { default as VerifyEmail } from './verifyEmail';
+export { default as AdminDashboard } from './adminDashboard';
+export { default as Profile } from './profile';
+export { default as Bikes } from './bikes';
+export { default as ResetPasswordOtp } from './resetPasswordOtp';
+export { default as Dashboard } from './dashboard';
+export { default as AddBike } from './addBike';
+export { default as BikeStation } from './dashboardAdmin';
+export { default as BikeStationDetails } from './bikeStationDetails';
+export { default as BikeDetails } from './bikeDetails';
+export { default as NewBooking } from './newBooking';
+export { default as ListBookings } from './listBookings';
+export { default as BookingDetails } from './bookingDetails';
+export { default as PaymentScreen } from './payment';
