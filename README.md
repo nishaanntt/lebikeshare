@@ -8,7 +8,9 @@ This project is a bike-sharing app designed to simplify the process of finding a
 
 - **Manage Bike Stations & Bikes:** Admins can add, remove, and update bike stations and bike details, including station names, bike slots, unique bike numbers, origin stations, and maintenance dates. This ensures accurate listings and availability tracking.
 
-- **Maps Integration:** Users can view nearby bike stations using Google Maps, which shows their current location and nearby stations via GPS. 
+- **Maps Integration:** Users can view nearby bike stations using Google Maps, which shows their current location and nearby stations via GPS.
+
+- **Secured Transactions:** Users can make secured transaction through integrated Stripe payment gateway which also enables them to save their payment details for ease of use for future transactions.
 
 ## Architecture
 - **Frontend:** Built using Expo (React Native) for a cross-platform mobile app experience.
